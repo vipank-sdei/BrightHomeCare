@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BrightCare.Web.Api</name>
+    </assembly>
+    <members>
+        <member name="M:BrightCare.Web.Api.Controllers.ExceptionController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BrightCare.Web.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            To get the weather reports
+            </summary>
+            <returns>it return WeatherForecast type list</returns>
+        </member>
+        <member name="T:BrightCare.Web.Api.Middleware.ExceptionMiddleware">
+            <summary>
+            Handles exception across the application
+            </summary>
+        </member>
+        <member name="M:BrightCare.Web.Api.Middleware.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Used to inject dependencies
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:BrightCare.Web.Api.Middleware.ExceptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

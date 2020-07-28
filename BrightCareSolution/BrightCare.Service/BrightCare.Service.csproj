@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrightCare.Dtos\BrightCare.Dtos.csproj" />
+    <ProjectReference Include="..\BrightCare.Repository.Interface\BrightCare.Repository.Interface.csproj" />
+    <ProjectReference Include="..\BrightCare.Service.Interface\BrightCare.Service.Interface.csproj" />
+    <ProjectReference Include="..\BrightCare.ThirdPartyService.Interface\BrightCare.ThirdPartyService.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Agency\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>

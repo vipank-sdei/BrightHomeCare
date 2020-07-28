@@ -1,0 +1,16 @@
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyService.Interface\bin\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.deps.json
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyService.Interface\bin\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.dll
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyService.Interface\bin\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.pdb
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.AssemblyInfoInputs.cache
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.AssemblyInfo.cs
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.csproj.CoreCompileInputs.cache
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.dll
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.pdb
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.ThirdPartyService.Interface\bin\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.deps.json
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.ThirdPartyService.Interface\bin\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.dll
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.ThirdPartyService.Interface\bin\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.pdb
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.AssemblyInfoInputs.cache
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.AssemblyInfo.cs
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.csproj.CoreCompileInputs.cache
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.dll
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.ThirdPartyService.Interface\obj\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.pdb

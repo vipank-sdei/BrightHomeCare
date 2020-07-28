@@ -1,0 +1,17 @@
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Common\bin\Debug\netstandard2.0\BrightCare.Common.deps.json
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Common\bin\Debug\netstandard2.0\BrightCare.Common.dll
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Common\bin\Debug\netstandard2.0\BrightCare.Common.pdb
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.AssemblyInfoInputs.cache
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.AssemblyInfo.cs
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.csproj.CoreCompileInputs.cache
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.dll
+D:\Projects\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.pdb
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\bin\Debug\netstandard2.0\BrightCare.Common.deps.json
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\bin\Debug\netstandard2.0\BrightCare.Common.dll
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\bin\Debug\netstandard2.0\BrightCare.Common.pdb
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.csprojAssemblyReference.cache
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.AssemblyInfoInputs.cache
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.AssemblyInfo.cs
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.csproj.CoreCompileInputs.cache
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.dll
+D:\HomeCareMerge\HomeCare\BrightCareSolution\BrightCare.Common\obj\Debug\netstandard2.0\BrightCare.Common.pdb

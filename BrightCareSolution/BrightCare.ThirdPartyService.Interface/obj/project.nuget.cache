@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AWzC5gJvDzkFQVotq3Ezmsl5yz9YVt1sUyTPWJrsgbs24iNAo2kNwlOUJbaoNgrUyNX1rBRIXKHYGNyNYvsSXg==",
+  "success": true,
+  "projectFilePath": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vipan.kumar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vipan.kumar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
