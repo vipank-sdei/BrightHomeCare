@@ -1,12 +1,11 @@
 ﻿using AutoMapper;
 using BrightCare.Common;
 using BrightCare.Common.Model;
-using BrightCare.Common.Service;
 using BrightCare.Dtos.Agency.MasterDocumentType;
 using BrightCare.Entity.Agency;
 using BrightCare.Repository.Interface.Agency.MasterDocumentType;
 using BrightCare.Service.Interface.Agency.MasterDocumentType;
-using HC.Common.HC.Common;
+using HC.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +14,7 @@ using static BrightCare.Common.Enums.CommonEnum;
 
 namespace BrightCare.Service.Agency.MasterDocumentType
 {
-    public class MasterDocumentTypeService: BaseService, IMasterDocumentTypeService
+    public class MasterDocumentTypeService: IMasterDocumentTypeService
     {
         private readonly IMasterDocumentTypeRepository _masterDocumentTypeRepository;
         private readonly IMapper _mapper;

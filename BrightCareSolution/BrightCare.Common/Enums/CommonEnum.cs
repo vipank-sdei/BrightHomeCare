@@ -309,7 +309,6 @@ namespace BrightCare.Common.Enums
             public readonly static string MTR_GetMasterICDCodes = "MTR_GetMasterICDCodes";
             public readonly static string MTR_GetSecurityQuestions = "MTR_GetSecurityQuestions";
             public readonly static string MTR_GetMasterTemplates = "MTR_GetMasterTemplates";
-            public readonly static string MTR_GetMasterService = "MTR_GetMasterService";
 
             //Payroll
             public readonly static string PRL_GetPayrollGroupList = "PRL_GetPayrollGroupList";

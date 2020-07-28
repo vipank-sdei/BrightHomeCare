@@ -1,12 +1,11 @@
 ﻿using AutoMapper;
 using BrightCare.Common;
 using BrightCare.Common.Model;
-using BrightCare.Common.Service;
 using BrightCare.Dtos.Agency.UserRole;
 using BrightCare.Entity.Agency;
 using BrightCare.Repository.Interface.Agency.UserRole;
 using BrightCare.Service.Interface.Agency.UserRole;
-using HC.Common.HC.Common;
+using HC.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +14,7 @@ using static BrightCare.Common.Enums.CommonEnum;
 
 namespace BrightCare.Service.Agency.UserRole
 {
-    public class UserRoleService: BaseService, IUserRoleService
+    public class UserRoleService: IUserRoleService
     {
         private readonly IUserRoleRepository _userRoleRepository;
         private readonly IMapper _mapper;

@@ -1,4 +1,6 @@
-﻿using BrightCare.Common.Model;
+﻿using BrightCare.Common;
+using BrightCare.Common.Model;
+using HC.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Primitives;
@@ -23,21 +25,20 @@ namespace BrightCare.Web.Api.Filters
         }
         protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, AuthorizationFilter requirement)
         {
-#if !DEBUG
+#if DEBUG
             StringValues authorizationToken;
             StringValues businessToken;
             var authHeader = contextAccessor.HttpContext.Request.Headers.TryGetValue("Authorization", out authorizationToken);
             var businessTokenHeader = contextAccessor.HttpContext.Request.Headers.TryGetValue("BusinessToken", out businessToken);
             var authToken = authorizationToken.ToString().Replace("Bearer", "").Trim();
-
             var encryptData = CommonMethods.GetDataFromToken(authToken);
             if ((encryptData != null && encryptData.Claims != null) || (businessTokenHeader == true))
             {
-                //if (encryptData.ValidTo < DateTime.UtcNow) //check if login user's token expire then its unauthorized request
-                //{
-                //    context.Fail();
-                //    throw new AuthenticationException(StatusMessage.TokenExpired);
-                //}
+                if (encryptData.ValidTo < DateTime.UtcNow) //check if login user's token expire then its unauthorized request
+                {
+                    context.Fail();
+                    throw new AuthenticationException(StatusMessage.TokenExpired);
+                }
                 context.Succeed(requirement);
             }
             else

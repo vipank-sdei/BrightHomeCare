@@ -200,11 +200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.ThirdPartyServices\\BrightCare.ThirdPartyServices.csproj",
+      "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyServices\\BrightCare.ThirdPartyServices.csproj",
       "projectName": "BrightCare.ThirdPartyServices",
-      "projectPath": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.ThirdPartyServices\\BrightCare.ThirdPartyServices.csproj",
+      "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyServices\\BrightCare.ThirdPartyServices.csproj",
       "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-      "outputPath": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.ThirdPartyServices\\obj\\",
+      "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -220,8 +220,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj": {
-              "projectPath": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj"
+            "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj": {
+              "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj"
             }
           }
         }

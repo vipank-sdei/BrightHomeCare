@@ -1,5 +1,4 @@
 ﻿using BrightCare.Common;
-using BrightCare.Common.IService;
 using BrightCare.Common.Model;
 using BrightCare.Dtos.Agency.MasterServiceTypes;
 using System;
@@ -8,7 +7,7 @@ using System.Text;
 
 namespace BrightCare.Service.Interface.Agency.MasterServiceTypes
 {
-    public interface IMasterServiceType : IBaseService
+    public interface IMasterServiceType 
     {
         JsonModel GetMasterServiceType(TokenModel token);
         JsonModel AddUpdateMasterServiceType(MasterServiceTypeDTO masterServiceTypeDTO, TokenModel token);

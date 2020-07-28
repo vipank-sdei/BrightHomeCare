@@ -43,11 +43,8 @@ namespace BrightCare.Repository.Agency
         /// <param name="entities">Multiple entities.</param>
         public virtual void Create(T entity, params T[] entities)
         {
-            
-                EntityState state = EntityState.Added;
-                SetEntityState(state, entity, entities);
-           
-            
+            EntityState state = EntityState.Added;
+            SetEntityState(state, entity, entities);
         }
 
 
@@ -120,21 +117,9 @@ namespace BrightCare.Repository.Agency
         /// <returns>Number of rows affected.</returns>
         public int SaveChanges()
         {
-            try
-            {
-                int recordsAffected = context.SaveChanges();
-                return recordsAffected;
-            }
-                //int recordsAffected = context.SaveChanges();
-                //return recordsAffected; 
-                
-            catch(Exception ex)
-            {
-                throw ex;
-            }
-           
+            int recordsAffected = context.SaveChanges();
             //this.Dispose();  // uncommented by kundan for memeory release 
-            
+            return recordsAffected;
         }
 
 

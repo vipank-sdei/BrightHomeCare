@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KOJSrTqgFBcRbZUB5BgB/7EKb8G4NxkiA7kUUIbEOEMATcm9/DquO8kPhPKfnzmCApM35FHvSjtAbgdyzacosw==",
+  "dgSpecHash": "9ESH6HgASVVopfUYJ+VT+AaYKU6ehC5+C7HPxL4rr46jjRz+Ml9FKT6eZZFWv5ybUwXnwXCgG9wR3oNzu6rJEA==",
   "success": true,
-  "projectFilePath": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
+  "projectFilePath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vipan.kumar\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\vipan.kumar\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

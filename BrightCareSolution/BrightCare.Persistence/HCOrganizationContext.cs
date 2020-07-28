@@ -50,6 +50,9 @@ namespace BrightCare.Persistence
         }
         public DbSet<ExceptionLog> ExceptionLog { get; set; }
         public DbSet<Organization> Organization { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<Staffs> Staffs { get; set; }
+        public DbSet<Patients> Patients { get; set; }
         public DbSet<MasterServices> MasterServices { get; set; }
         public DbSet<MasterServiceType> MasterServiceType { get; set; }
         public DbSet<UserRoles> UserRoles { get; set; }
@@ -150,6 +153,35 @@ namespace BrightCare.Persistence
 
             }
            
+        }
+
+        public IList<TEntity> ExecStoredProcedureListWithOutput<TEntity>(string commandText, int totalOutputParams, params object[] parameters) where TEntity : class, new()
+        {
+            var connection = this.Database.GetDbConnection();
+            IList<TEntity> result = new List<TEntity>();
+            try
+            {
+                totalOutputParams = totalOutputParams == 0 ? 1 : totalOutputParams;
+                if (connection.State == ConnectionState.Closed) { connection.Open(); }
+                using (var cmd = connection.CreateCommand())
+                {
+                    AddParametersToDbCommand(commandText, parameters, cmd);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        result = DataReaderMapToList<TEntity>(reader);
+                        reader.NextResult();
+                    }
+                }
+                return result;
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
 
 

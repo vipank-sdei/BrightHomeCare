@@ -5,7 +5,7 @@ using System.Linq;
 using Microsoft.Extensions.Primitives;
 using BrightCare.Common;
 using BrightCare.Entity.SuperAdmin;
-using HC.Common.HC.Common;
+using HC.Common;
 
 namespace BrightCare.Persistence
 {

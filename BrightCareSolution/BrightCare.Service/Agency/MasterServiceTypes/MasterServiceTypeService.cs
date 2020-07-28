@@ -1,12 +1,11 @@
 ﻿using AutoMapper;
 using BrightCare.Common;
 using BrightCare.Common.Model;
-using BrightCare.Common.Service;
 using BrightCare.Dtos.Agency.MasterServiceTypes;
 using BrightCare.Entity.Agency;
 using BrightCare.Repository.Interface.Agency.MasterServiceTypes;
 using BrightCare.Service.Interface.Agency.MasterServiceTypes;
-using HC.Common.HC.Common;
+using HC.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +14,7 @@ using static BrightCare.Common.Enums.CommonEnum;
 
 namespace BrightCare.Service.Agency.MasterServiceTypes
 {
-    public class MasterServiceTypeService : BaseService, IMasterServiceType
+    public class MasterServiceTypeService : IMasterServiceType
     {
         private readonly IMasterServiceTypeRepository _masterServiceTypeRepository;
         private readonly IMapper _mapper;

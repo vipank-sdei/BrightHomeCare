@@ -47,7 +47,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dtos", "Dtos", "{8D61D344-6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{00DC6B00-EEC9-42B8-BB95-8B924A7DFFD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrightCare.Common", "BrightCare.Common\BrightCare.Common.csproj", "{5FFD5A45-D76D-48E0-B986-4D68495E8D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrightCare.Common", "BrightCare.Common\BrightCare.Common.csproj", "{5FFD5A45-D76D-48E0-B986-4D68495E8D70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

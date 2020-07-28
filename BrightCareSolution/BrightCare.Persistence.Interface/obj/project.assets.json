@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj",
+      "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj",
       "projectName": "BrightCare.Persistence.Interface",
-      "projectPath": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj",
+      "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj",
       "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-      "outputPath": "D:\\HomeCareMerge\\HomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\obj\\",
+      "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,6 +1,4 @@
 ﻿namespace HC.Common
-{
-    namespace HC.Common
     {
         public class ConstantString
         {
@@ -767,4 +765,4 @@
             public const string DocumentStatus = "documentstatus";
         }
     }
-}
+

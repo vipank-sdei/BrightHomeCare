@@ -10,7 +10,6 @@
       "BrightCare.Repository.Interface/1.0.0": {
         "dependencies": {
           "BrightCare.Common": "1.0.0",
-          "BrightCare.Dtos": "1.0.0",
           "BrightCare.Entity": "1.0.0",
           "NETStandard.Library": "2.0.3"
         },
@@ -190,11 +189,6 @@
           "BrightCare.Common.dll": {}
         }
       },
-      "BrightCare.Dtos/1.0.0": {
-        "runtime": {
-          "BrightCare.Dtos.dll": {}
-        }
-      },
       "BrightCare.Entity/1.0.0": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.7.0"
@@ -338,11 +332,6 @@
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
     },
     "BrightCare.Common/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "BrightCare.Dtos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

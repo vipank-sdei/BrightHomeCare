@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BrightCare.Common\BrightCare.Common.csproj" />
-    <ProjectReference Include="..\BrightCare.Dtos\BrightCare.Dtos.csproj" />
     <ProjectReference Include="..\BrightCare.Entity\BrightCare.Entity.csproj" />
   </ItemGroup>
 
