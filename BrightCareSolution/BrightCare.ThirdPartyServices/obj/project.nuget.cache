@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vdJz+lb5MWQ++DNdTRA9AjeTXQewfss4++Q9KD4xlzSAJFL6xC4rhRlHvkcwt/cRo+HGhNabFB6QsMaLyzTtGQ==",
+  "dgSpecHash": "4uAyivlRqHCkx2vvNqqp4cbj7dyME/Y4Q5HXebWtIdbI+AC2VdmtPinSr7eDBAEQ5KvSuSNIeQylMYPw5x+4Kw==",
   "success": true,
-  "projectFilePath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyServices\\BrightCare.ThirdPartyServices.csproj",
+  "projectFilePath": "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.ThirdPartyServices\\BrightCare.ThirdPartyServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vipan.kumar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\vipan.kumar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

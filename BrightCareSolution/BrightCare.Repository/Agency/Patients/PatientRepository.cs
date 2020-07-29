@@ -11,7 +11,7 @@ using static BrightCare.Common.Enums.CommonEnum;
 
 namespace BrightCare.Repository.Agency.Patients
 {
-   public class PatientRepository : RepositoryBase<Entity.Agency.Patients>, IPatientRepository
+    public class PatientRepository : RepositoryBase<Entity.Agency.Patients>, IPatientRepository
     {
         private HCOrganizationContext context;
         public PatientRepository(HCOrganizationContext context) : base(context)
@@ -68,5 +68,14 @@ namespace BrightCare.Repository.Agency.Patients
             };
             return context.ExecStoredProcedureListWithOutput<T>(SQLObjects.MTR_DecryptPHIData, parameters.Length, parameters).AsQueryable();
         }
-    }
+
+        public IQueryable<T> GetPatients<T>(TokenModel token) where T : class, new()
+        {
+            SqlParameter[] parameters = {
+                                          new SqlParameter("@IsActive",true),
+                                          new SqlParameter("@OrganizationID",token.OrganizationID),
+                };
+            return context.ExecStoredProcedureListWithOutput<T>("GetPatients", parameters.Length, parameters).AsQueryable();
+        }
+    } 
 }

@@ -15,6 +15,6 @@ namespace BrightCare.Repository.Interface.Agency.Patients
 
         IQueryable<T> GetDecryptedPHIData<T>(byte[] firstName, byte[] middleName, byte[] lastName, byte[] dob, byte[] emailAddress, byte[] ssn, byte[] mrn, byte[] aptnumber, byte[] address1, byte[] address2, byte[] city, byte[] zipCode, byte[] phonenumber, byte[] healthPlanBeneficiaryNumber) where T : class, new();
 
-       // IQueryable<T> GetPatients<T>(ListingFiltterModel patientFiltterModel, TokenModel token) where T : class, new();
+       IQueryable<T> GetPatients<T>(TokenModel token) where T : class, new();
     }
 }

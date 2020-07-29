@@ -7,3 +7,12 @@ D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.E
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.dll
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.pdb
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.csprojAssemblyReference.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\bin\Debug\netstandard2.0\BrightCare.Entity.deps.json
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\bin\Debug\netstandard2.0\BrightCare.Entity.dll
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\bin\Debug\netstandard2.0\BrightCare.Entity.pdb
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.AssemblyInfoInputs.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.AssemblyInfo.cs
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.csproj.CoreCompileInputs.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.dll
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.pdb
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Entity\obj\Debug\netstandard2.0\BrightCare.Entity.csprojAssemblyReference.cache

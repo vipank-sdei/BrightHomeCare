@@ -46,6 +46,10 @@ using BrightCare.Repository.Agency.MasterService;
 using BrightCare.Repository.Agency.MasterServiceTypes;
 using BrightCare.Repository.Agency.UserRole;
 using BrightCare.Repository.Agency.MasterDocumentType;
+using BrightCare.Repository.Interface.Agency.StaffLeave;
+using BrightCare.Service.Interface.Agency.StaffLeave;
+using BrightCare.Service.Agency.StaffLeave;
+using BrightCare.Repository.Agency.StaffLeave;
 
 namespace BrightCare.Web.Api.Dependency
 {
@@ -83,6 +87,7 @@ namespace BrightCare.Web.Api.Dependency
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IStaffRepository, StaffRepository>();
             services.AddScoped<IPatientRepository,PatientRepository>();
+            services.AddScoped<IStaffLeaveRepository, StaffLeaveRepository>();
             //MasterService
             services.AddScoped<IMasterServicesRepository, MasterServicesRepository>();
             //MasterServiceType
@@ -103,6 +108,7 @@ namespace BrightCare.Web.Api.Dependency
             services.AddTransient<IMasterServiceType, MasterServiceTypeService>();
             services.AddTransient<IUserRoleService, UserRoleService>();
             services.AddTransient<IMasterDocumentTypeService, MasterDocumentTypeService>();
+            services.AddTransient<IStaffLeaveService, StaffLeaveService>();
             #endregion
         }
     }

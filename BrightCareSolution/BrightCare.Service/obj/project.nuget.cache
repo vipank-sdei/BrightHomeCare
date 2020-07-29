@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "97fAihkM+8L5ySOWke76WjLXJWiCo7kr15MDmJ1B6gr4lMqS1g4sXRxDNs6jL0DVL1XsRZ45JqVUoCv2MyIeQw==",
+  "dgSpecHash": "LZRMS5SCrVppJ8V/roPw1A6UWV80vAq9MmwBE13nvjxeeTYoeCs2jEH89Hi+qTNLX+s6YHhVe3TcvqQ6bUPwYg==",
   "success": true,
-  "projectFilePath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Service\\BrightCare.Service.csproj",
+  "projectFilePath": "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Service\\BrightCare.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vipan.kumar\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\vipan.kumar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

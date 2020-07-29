@@ -6493,11 +6493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Repository\\BrightCare.Repository.csproj",
+      "projectUniqueName": "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Repository\\BrightCare.Repository.csproj",
       "projectName": "BrightCare.Repository",
-      "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Repository\\BrightCare.Repository.csproj",
+      "projectPath": "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Repository\\BrightCare.Repository.csproj",
       "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Repository\\obj\\",
+      "outputPath": "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6513,14 +6513,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj": {
-              "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj"
+            "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj": {
+              "projectPath": "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj"
             },
-            "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj": {
-              "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj"
+            "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj": {
+              "projectPath": "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj"
             },
-            "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Repository.Interface\\BrightCare.Repository.Interface.csproj": {
-              "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Repository.Interface\\BrightCare.Repository.Interface.csproj"
+            "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Repository.Interface\\BrightCare.Repository.Interface.csproj": {
+              "projectPath": "D:\\Working\\BrightHomeCare\\BrightCareSolution\\BrightCare.Repository.Interface\\BrightCare.Repository.Interface.csproj"
             }
           }
         }

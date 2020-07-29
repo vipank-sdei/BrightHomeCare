@@ -7,3 +7,11 @@ D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.P
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Persistence.Interface\obj\Debug\netstandard2.0\BrightCare.Persistence.Interface.dll
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Persistence.Interface\obj\Debug\netstandard2.0\BrightCare.Persistence.Interface.pdb
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.Persistence.Interface\obj\Debug\netstandard2.0\BrightCare.Persistence.Interface.csprojAssemblyReference.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Persistence.Interface\bin\Debug\netstandard2.0\BrightCare.Persistence.Interface.deps.json
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Persistence.Interface\bin\Debug\netstandard2.0\BrightCare.Persistence.Interface.dll
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Persistence.Interface\bin\Debug\netstandard2.0\BrightCare.Persistence.Interface.pdb
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Persistence.Interface\obj\Debug\netstandard2.0\BrightCare.Persistence.Interface.AssemblyInfoInputs.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Persistence.Interface\obj\Debug\netstandard2.0\BrightCare.Persistence.Interface.AssemblyInfo.cs
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Persistence.Interface\obj\Debug\netstandard2.0\BrightCare.Persistence.Interface.csproj.CoreCompileInputs.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Persistence.Interface\obj\Debug\netstandard2.0\BrightCare.Persistence.Interface.dll
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Persistence.Interface\obj\Debug\netstandard2.0\BrightCare.Persistence.Interface.pdb

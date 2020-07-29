@@ -42,7 +42,7 @@ namespace BrightCare.Service.Agency.Patient
                 response.StatusCode = 422;
                 return response;
             }
-
+            // Encrypt the fields data
             PHIEncryptedDTO pHIEncryptedModel = iPatientRepository.GetEncryptedPHIData<PHIEncryptedDTO>(patientDTO.FirstName, patientDTO.MiddleName, patientDTO.LastName, patientDTO.DOB != null ? patientDTO.DOB.ToString("yyyy-MM-dd HH:mm:ss.fffffff") : null, patientDTO.Email, patientDTO.SSN, patientDTO.MRN, null, null, null, null, null, null, null).FirstOrDefault();
             // save client
             if (patientDTO.Id == 0)
@@ -54,7 +54,7 @@ namespace BrightCare.Service.Agency.Patient
                 response.Message = StatusMessage.ClientCreated;
                 response.StatusCode = (int)HttpStatusCodes.OK;
             }
-            // uodate client
+            // update client
             else {
                 patient = iPatientRepository.GetFirstOrDefault(a => a.Id == patientDTO.Id && a.IsDeleted == false && a.IsActive == true);
                // Map DTO Model to entity
@@ -70,6 +70,7 @@ namespace BrightCare.Service.Agency.Patient
 
         private void PatientMapToEntity(PatientDTO patientDemographics, Patients patients, PHIEncryptedDTO pHIEncryptedModel, TokenModel token, string action)
         {
+            //Mapping of Entries
             patients.MRN = pHIEncryptedModel.MRN;
             patients.FirstName = pHIEncryptedModel.FirstName;
             patients.MiddleName = pHIEncryptedModel.MiddleName;
@@ -110,6 +111,7 @@ namespace BrightCare.Service.Agency.Patient
         {
             token.OrganizationID = 2;
             token.UserID = 1;
+            // Get Patient
            Patients patientEntity = iPatientRepository.GetFirstOrDefault(a => a.Id == id && a.IsDeleted == false && a.IsActive == true);
             if (patientEntity != null)
             {
@@ -131,13 +133,16 @@ namespace BrightCare.Service.Agency.Patient
 
         public JsonModel GetPatient(int? id, TokenModel token)
         {
+            token.OrganizationID = 2;
             PatientDTO patientDTO = new PatientDTO();
-            if (id == null)
+            // get single record
+            if (id != null)
             {
                 Patients patients = iPatientRepository.GetFirstOrDefault(a => a.Id == id && a.IsDeleted == false);
 
                 if (patients != null)
                 {
+                    // Decrypt the data 
                     PHIDecryptedDTO pHIDecryptedDTO = iPatientRepository.GetDecryptedPHIData<PHIDecryptedDTO>(patients.FirstName, patients.MiddleName, patients.LastName, patients.DOB, patients.Email, patients.SSN, patients.MRN, null, null, null, null, null, null, null).FirstOrDefault();
                     MapPatientEntityToDTO(patientDTO, patients, pHIDecryptedDTO, token);
                     if (patientDTO != null && !string.IsNullOrEmpty(patientDTO.PhotoPath) && !string.IsNullOrEmpty(patientDTO.PhotoThumbnailPath))
@@ -152,10 +157,12 @@ namespace BrightCare.Service.Agency.Patient
                     response = new JsonModel(new object(), StatusMessage.NotFound, (int)HttpStatusCodes.NotFound);
                 }
             }
-            //else
-            //{
-            //    List<PatientDTO> patientModels = iPatientRepository.GetPatients<PatientModel>(patientFiltterModel, token).ToList();
-            //}
+            // Get all ptients in decrypted form from db
+            else
+            {
+                List<PatientDTO> patientModels = iPatientRepository.GetPatients<PatientDTO>(token).ToList();
+                response = new JsonModel(patientModels, StatusMessage.FetchMessage, (int)HttpStatusCodes.OK);
+            }
 
             return response;          
         }

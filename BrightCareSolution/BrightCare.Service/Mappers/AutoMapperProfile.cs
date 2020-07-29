@@ -5,6 +5,7 @@ using BrightCare.Dtos.Agency.MasterServices;
 using BrightCare.Dtos.Agency.MasterServiceTypes;
 using BrightCare.Dtos.Agency.UserRole;
 using BrightCare.Entity.Agency;
+using BrightCare.Dtos.Agency.StaffLeave;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -24,6 +25,9 @@ namespace BrightCare.Service.Mappers
 
             CreateMap<Staffs, StaffsDTO>();
             CreateMap<Staffs, StaffsDTO>().ReverseMap();
+
+            CreateMap<StaffLeaves, StaffLeaveDTO>();
+            CreateMap<StaffLeaves, StaffLeaveDTO>().ReverseMap();
 
             CreateMap<MasterServices, MasterServicesDTO>().ReverseMap();
             CreateMap<MasterServiceType, MasterServiceTypeDTO>().ReverseMap();

@@ -10,3 +10,15 @@ D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.T
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.csproj.CopyComplete
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.dll
 D:\Project\HomeCare\CoreAPI_MultiDB_Architecture\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.pdb
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\bin\Debug\netstandard2.0\BrightCare.ThirdPartyServices.deps.json
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\bin\Debug\netstandard2.0\BrightCare.ThirdPartyServices.dll
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\bin\Debug\netstandard2.0\BrightCare.ThirdPartyServices.pdb
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\bin\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.dll
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\bin\Debug\netstandard2.0\BrightCare.ThirdPartyService.Interface.pdb
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.csprojAssemblyReference.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.AssemblyInfoInputs.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.AssemblyInfo.cs
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.csproj.CoreCompileInputs.cache
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.csproj.CopyComplete
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.dll
+D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.ThirdPartyServices\obj\Debug\netstandard2.0\BrightCare.ThirdPartyServices.pdb

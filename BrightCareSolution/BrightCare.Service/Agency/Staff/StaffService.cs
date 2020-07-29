@@ -95,6 +95,7 @@ namespace BrightCare.Service.Agency.Staff
 
         private User SaveUser(StaffsDTO entity, TokenModel token)
         {
+            // ENTRY IN User table
             User requestUser = new User();
             requestUser.UserName = entity.UserName;
             requestUser.Password = entity.Password;
@@ -110,6 +111,7 @@ namespace BrightCare.Service.Agency.Staff
 
         private Staffs UpadteStaff(Staffs staffDB, StaffsDTO staff, TokenModel token)
         {
+            //Update Staff Info
             staffDB.FirstName = staff.FirstName;
             staffDB.LastName = staff.LastName;
             staffDB.MiddleName = staff.MiddleName;
@@ -186,9 +188,8 @@ namespace BrightCare.Service.Agency.Staff
             // get staff info
             if (id == null)
             {
-                List<Staffs> staffs = iStaffRepository.GetAll(a => a.OrganizationID == token.OrganizationID && a.IsActive == true && a.IsDeleted == false).ToList();
-                List<StaffsDTO> staffDTO = _mapper.Map<List<StaffsDTO>>(staffs);
-                return new JsonModel(staffDTO, StatusMessage.FetchMessage, (int)HttpStatusCodes.OK);
+                List<StaffsDTO> staffModels = iStaffRepository.GetStaff<StaffsDTO>(token).ToList();
+                return new JsonModel(staffModels, StatusMessage.FetchMessage, (int)HttpStatusCodes.OK);
             }
             else
             {
