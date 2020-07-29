@@ -10,6 +10,6 @@ namespace BrightCare.Service.Interface.Agency.Login
 {
     public interface ILoginServices
     {
-        JsonModel Login(ApplicationUser applicationUser, JwtIssuerOptions _jwtOptions);
+        JsonModel Login(ApplicationUserDTO applicationUser, JwtIssuerOptions _jwtOptions);
     }
 }

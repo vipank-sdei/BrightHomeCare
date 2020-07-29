@@ -26,7 +26,7 @@ namespace BrightCare.Web.Api.Controllers.Agency
         }
 
        [HttpPost]
-        public ActionResult login(ApplicationUser applicationUser)
+        public ActionResult login(ApplicationUserDTO applicationUser)
         {
             return Ok(_loginService.Login(applicationUser, _jwtOptions));
         }

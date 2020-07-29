@@ -34,7 +34,7 @@ namespace BrightCare.Service.Agency.Login
             _mapper = mapper;
 
         }
-        public JsonModel Login(ApplicationUser applicationUser, JwtIssuerOptions _jwtOptions)
+        public JsonModel Login(ApplicationUserDTO applicationUser, JwtIssuerOptions _jwtOptions)
         {
             // check user by Username
             User dbuser = iUserRepository.GetFirstOrDefault(a => a.UserName == applicationUser.UserName);
@@ -66,7 +66,7 @@ namespace BrightCare.Service.Agency.Login
             return new JsonModel(null, StatusMessage.InvalidUserOrPassword, (int)HttpStatusCodes.Unauthorized);
         }
 
-        private static ClaimsIdentity GetClaimsIdentity(ApplicationUser user, User dbUser)
+        private static ClaimsIdentity GetClaimsIdentity(ApplicationUserDTO user, User dbUser)
         {
             // check username and password
             var password = CommonMethods.Decrypt(dbUser.Password);
@@ -85,7 +85,7 @@ namespace BrightCare.Service.Agency.Login
 
         }
 
-        private JsonModel LoginUser(ApplicationUser applicationUser, JwtIssuerOptions _jwtOptions, User dbuser, Staffs userInfo, ClaimsIdentity identity)
+        private JsonModel LoginUser(ApplicationUserDTO applicationUser, JwtIssuerOptions _jwtOptions, User dbuser, Staffs userInfo, ClaimsIdentity identity)
         {
             // initialize claims for jwt token
             var claims = new[]

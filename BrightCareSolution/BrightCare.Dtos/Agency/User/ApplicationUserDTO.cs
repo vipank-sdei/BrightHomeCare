@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BrightCare.Dtos.Agency
 {
-   public class ApplicationUser
+   public class ApplicationUserDTO
     {
             public string UserName { get; set; }
             public string Password { get; set; }
