@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using BrightCare.Dtos.Agency;
+using BrightCare.Dtos.Agency.LeaveReasons;
+using BrightCare.Dtos.Agency.LeaveTypes;
 using BrightCare.Dtos.Agency.MasterDocumentType;
 using BrightCare.Dtos.Agency.MasterServices;
 using BrightCare.Dtos.Agency.MasterServiceTypes;
@@ -31,6 +33,8 @@ namespace BrightCare.Service.Mappers
             CreateMap<UserRoles, UserRoleDTO>().ReverseMap();
 
             CreateMap<MasterDocumentTypes, MasterDocumentTypeDTO>().ReverseMap();
+            CreateMap<LeaveType, LeaveTypeDTO>().ReverseMap();
+            CreateMap<LeaveReason, LeaveReasonDTO>().ReverseMap();
 
         }
 

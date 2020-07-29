@@ -29,7 +29,7 @@ namespace BrightCare.Service.Agency.UserRole
         public JsonModel GetUserRole(TokenModel token)
         {
             List<UserRoleDTO> userRoleDTO = new List<UserRoleDTO>();
-            List<UserRoles> userRoles = _userRoleRepository.GetAll(l => l.IsDeleted == false && l.OrganizationID == 2).ToList();// token.OrganizationID);
+            List<UserRoles> userRoles = _userRoleRepository.GetAll(l => l.IsDeleted == null && l.OrganizationID == 2).ToList();// token.OrganizationID);
             userRoleDTO = _mapper.Map<List<UserRoleDTO>>(userRoles); // Mapping
 
             return new JsonModel(userRoleDTO, StatusMessage.Success, (int)HttpStatusCodes.OK);
@@ -51,6 +51,7 @@ namespace BrightCare.Service.Agency.UserRole
             userRolesEntity = _mapper.Map<UserRoles>(userRoleDTO);
             userRolesEntity.OrganizationID = 2; // token.OrganizationID;           
             userRolesEntity.IsActive = true;
+            userRolesEntity.IsDeleted = false;
             _userRoleRepository.Create(userRolesEntity);
             _userRoleRepository.SaveChanges();
            

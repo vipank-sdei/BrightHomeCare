@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj": {}
+    "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj": {}
   },
   "projects": {
-    "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj": {
+    "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
+        "projectUniqueName": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
         "projectName": "BrightCare.Common",
-        "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
-        "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\obj\\",
+        "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
+        "packagesPath": "D:\\Users\\vaibhavb\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\vaibhavb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,17 +74,20 @@
         }
       }
     },
-    "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj": {
+    "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj",
+        "projectUniqueName": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj",
         "projectName": "BrightCare.Entity",
-        "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj",
-        "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Entity\\obj\\",
+        "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj",
+        "packagesPath": "D:\\Users\\vaibhavb\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\vaibhavb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,17 +136,20 @@
         }
       }
     },
-    "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj": {
+    "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj",
+        "projectUniqueName": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj",
         "projectName": "BrightCare.Persistence.Interface",
-        "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj",
-        "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\obj\\",
+        "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj",
+        "packagesPath": "D:\\Users\\vaibhavb\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\vaibhavb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -185,17 +194,20 @@
         }
       }
     },
-    "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj": {
+    "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj",
+        "projectUniqueName": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj",
         "projectName": "BrightCare.Persistence",
-        "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj",
-        "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence\\obj\\",
+        "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence\\BrightCare.Persistence.csproj",
+        "packagesPath": "D:\\Users\\vaibhavb\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\vaibhavb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -208,14 +220,14 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj": {
-                "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj"
+              "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj": {
+                "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj"
               },
-              "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj": {
-                "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj"
+              "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj": {
+                "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Entity\\BrightCare.Entity.csproj"
               },
-              "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj": {
-                "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj"
+              "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj": {
+                "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Persistence.Interface\\BrightCare.Persistence.Interface.csproj"
               }
             }
           }

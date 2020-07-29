@@ -46,6 +46,14 @@ using BrightCare.Repository.Agency.MasterService;
 using BrightCare.Repository.Agency.MasterServiceTypes;
 using BrightCare.Repository.Agency.UserRole;
 using BrightCare.Repository.Agency.MasterDocumentType;
+using BrightCare.Repository.Interface.Agency.LeaveTypes;
+using BrightCare.Repository.Agency.LeaveTypes;
+using BrightCare.Service.Interface.Agency.LeaveTypes;
+using BrightCare.Service.Agency.LeaveTypes;
+using BrightCare.Repository.Interface.Agency.LeaveReasons;
+using BrightCare.Repository.Agency.LeaveReasons;
+using BrightCare.Service.Interface.Agency.LeaveReasons;
+using BrightCare.Service.Agency.LeaveReasons;
 
 namespace BrightCare.Web.Api.Dependency
 {
@@ -91,6 +99,12 @@ namespace BrightCare.Web.Api.Dependency
             services.AddScoped<IUserRoleRepository, UserRoleRepository>();
             //MasterDocumentType
             services.AddScoped<IMasterDocumentTypeRepository, MasterDocumentTypeRepository>();
+            //LeaveType
+            services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
+            //LeaveReason
+            services.AddScoped<ILeaveReasonReapository, LeaveReasonRepository>();
+
+
 
 
 
@@ -103,6 +117,8 @@ namespace BrightCare.Web.Api.Dependency
             services.AddTransient<IMasterServiceType, MasterServiceTypeService>();
             services.AddTransient<IUserRoleService, UserRoleService>();
             services.AddTransient<IMasterDocumentTypeService, MasterDocumentTypeService>();
+            services.AddTransient<ILeaveTypeService, LeaveTypeService>();
+            services.AddTransient<ILeaveReasonService, LeaveReasonService>();
             #endregion
         }
     }

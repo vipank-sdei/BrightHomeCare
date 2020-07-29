@@ -179,19 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vipan.kumar\\.nuget\\packages\\": {}
+    "D:\\Users\\vaibhavb\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj",
+      "projectUniqueName": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj",
       "projectName": "BrightCare.ThirdPartyService.Interface",
-      "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj",
-      "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\obj\\",
+      "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\BrightCare.ThirdPartyService.Interface.csproj",
+      "packagesPath": "D:\\Users\\vaibhavb\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.ThirdPartyService.Interface\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\vaibhavb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

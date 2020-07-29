@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj": {}
+    "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj": {}
   },
   "projects": {
-    "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj": {
+    "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
+        "projectUniqueName": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
         "projectName": "BrightCare.Common",
-        "projectPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
-        "packagesPath": "C:\\Users\\vipan.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\HomeCare\\CoreAPI_MultiDB_Architecture\\BrightCareSolution\\BrightCare.Common\\obj\\",
+        "projectPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\BrightCare.Common.csproj",
+        "packagesPath": "D:\\Users\\vaibhavb\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\HomeCareNew\\BrightHomeCare\\BrightCareSolution\\BrightCare.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vipan.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\vaibhavb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

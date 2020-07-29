@@ -54,6 +54,7 @@ namespace BrightCare.Service.Agency.MasterDocumentType
                 masterDocumentTypesEntity.CreatedBy = 2;// token.UserID;
                 masterDocumentTypesEntity.CreatedDate = CurrentDate;
                 masterDocumentTypesEntity.IsActive = true;
+                masterDocumentTypesEntity.IsDeleted = false;
                 _masterDocumentTypeRepository.Create(masterDocumentTypesEntity);
                 _masterDocumentTypeRepository.SaveChanges();
             }

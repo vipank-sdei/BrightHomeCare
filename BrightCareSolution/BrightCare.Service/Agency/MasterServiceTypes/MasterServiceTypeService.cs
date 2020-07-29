@@ -55,6 +55,7 @@ namespace BrightCare.Service.Agency.MasterServiceTypes
                 masterServiceTypeEntity.CreatedBy = 2;// token.UserID;
                 masterServiceTypeEntity.CreatedDate = CurrentDate;
                 masterServiceTypeEntity.IsActive = true;
+                masterServiceTypeEntity.IsDeleted = false;
                 _masterServiceTypeRepository.Create(masterServiceTypeEntity);
                 _masterServiceTypeRepository.SaveChanges();
             }
