@@ -58,6 +58,8 @@ namespace BrightCare.Persistence
         public DbSet<UserRoles> UserRoles { get; set; }
         public DbSet<MasterDocumentTypes> MasterDocumentTypes { get; set; }
         public DbSet<StaffLeaves> StaffLeave { get; set; }
+        public DbSet<LeaveType> LeaveType { get; set; }
+        public DbSet<LeaveReason> LeaveReason { get; set; }
 
         public int ExecuteStoredProcedureNonQuery(string commandText, params object[] parameters)
         {

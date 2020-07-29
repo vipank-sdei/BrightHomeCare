@@ -15,4 +15,3 @@ D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Dtos\obj\Debug\netstanda
 D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Dtos\obj\Debug\netstandard2.0\BrightCare.Dtos.csproj.CoreCompileInputs.cache
 D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Dtos\obj\Debug\netstandard2.0\BrightCare.Dtos.dll
 D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Dtos\obj\Debug\netstandard2.0\BrightCare.Dtos.pdb
-D:\Working\BrightHomeCare\BrightCareSolution\BrightCare.Dtos\obj\Debug\netstandard2.0\BrightCare.Dtos.csprojAssemblyReference.cache
