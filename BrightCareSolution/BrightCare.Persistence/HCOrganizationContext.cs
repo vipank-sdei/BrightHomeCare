@@ -60,6 +60,9 @@ namespace BrightCare.Persistence
         public DbSet<StaffLeaves> StaffLeave { get; set; }
         public DbSet<LeaveType> LeaveType { get; set; }
         public DbSet<LeaveReason> LeaveReason { get; set; }
+        public DbSet<MasterAllergies> MasterAllergies { get; set; }
+        public DbSet<MasterAllergiesReaction> MasterAllergiesReaction { get; set; }
+        public DbSet<DiagnosisCode> DiagnosisCode { get; set; }
 
         public int ExecuteStoredProcedureNonQuery(string commandText, params object[] parameters)
         {
