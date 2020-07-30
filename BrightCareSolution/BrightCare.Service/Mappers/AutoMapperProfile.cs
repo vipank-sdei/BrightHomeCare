@@ -11,6 +11,9 @@ using BrightCare.Dtos.Agency.StaffLeave;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using BrightCare.Dtos.Agency.MasterAllergy;
+using BrightCare.Dtos.Agency.MasterAllergyReaction;
+using BrightCare.Dtos.Agency.DiagnosisCodes;
 using BrightCare.Dtos.Agency.Document;
 using BrightCare.Dtos.Agency.Staff;
 
@@ -47,6 +50,9 @@ namespace BrightCare.Service.Mappers
             CreateMap<MasterDocumentTypes, MasterDocumentTypeDTO>().ReverseMap();
             CreateMap<LeaveType, LeaveTypeDTO>().ReverseMap();
             CreateMap<LeaveReason, LeaveReasonDTO>().ReverseMap();
+            CreateMap<MasterAllergies, MasterAllergyDTO>().ReverseMap();
+            CreateMap<MasterAllergiesReaction, MasterAllergyReactionDTO>().ReverseMap();
+            CreateMap<DiagnosisCode, DiagnosisCodesDTO>().ReverseMap();
 
         }
     }

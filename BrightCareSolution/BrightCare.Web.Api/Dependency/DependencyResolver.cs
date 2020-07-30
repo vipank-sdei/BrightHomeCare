@@ -62,6 +62,18 @@ using BrightCare.Repository.Interface.Agency.Documnets;
 using BrightCare.Repository.Agency.Documents;
 using BrightCare.Service.Interface.Agency.Documents;
 using BrightCare.Service.Agency.Documents;
+using BrightCare.Repository.Interface.Agency.MasterAllergy;
+using BrightCare.Repository.Agency.MasterAllergy;
+using BrightCare.Service.Interface.Agency.MasterAllergy;
+using BrightCare.Service.Agency.MasterAllergy;
+using BrightCare.Repository.Interface.Agency.MasterAllergyReaction;
+using BrightCare.Repository.Agency.MasterAllergyReaction;
+using BrightCare.Service.Interface.Agency.MasterAllergyReaction;
+using BrightCare.Service.Agency.MasterAllergyReaction;
+using BrightCare.Repository.Interface.Agency.DiagnosisCodes;
+using BrightCare.Repository.Agency.DiagnosisCodes;
+using BrightCare.Service.Interface.Agency.DiagnosisCodes;
+using BrightCare.Service.Agency.DiagnosisCodes;
 
 namespace BrightCare.Web.Api.Dependency
 {
@@ -112,9 +124,14 @@ namespace BrightCare.Web.Api.Dependency
             services.AddScoped<IMasterDocumentTypeRepository, MasterDocumentTypeRepository>();
             
             services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
-
+            //LeaveReason
             services.AddScoped<ILeaveReasonReapository, LeaveReasonRepository>();
-
+            //MasterAllergy
+            services.AddScoped<IMasterAllergyRepository, MasterAllergyRepository>();
+            //MasterAllergyReaction
+            services.AddScoped<IMasterAllergyReactionRepository, MasterAllergyReactionRepository>();
+            //DiagnosisCodes
+            services.AddScoped<IDiagnosisCodesRepository, DiagnosisCodesRepository>();
 
 
             /////////////services///////////////
@@ -133,6 +150,9 @@ namespace BrightCare.Web.Api.Dependency
 
             services.AddTransient<ILeaveTypeService, LeaveTypeService>();
             services.AddTransient<ILeaveReasonService, LeaveReasonService>();
+            services.AddTransient<IMasterAllergyService, MasterAllergyService>();
+            services.AddTransient<IMasterAllergyReactionService, MasterAllergyReactionService>();
+            services.AddTransient<IDiagnosisCodesService, DiagnosisCodesService>();
             #endregion
         }
     }
