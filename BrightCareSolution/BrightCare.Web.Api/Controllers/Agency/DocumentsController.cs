@@ -33,17 +33,15 @@ namespace BrightCare.Web.Api.Controllers.Agency
         }
 
         [HttpGet]
-        public ActionResult GetUserDocument(int Userid,string key)
-        {
-            return Ok(_documentService.GetUserDocument(Userid, key, GetToken(HttpContext)));
-        }
-
-        [HttpGet("GetUserDocumentById")]
         public ActionResult GetUserDocumentById(int Documentid)
         {
             return Ok(_documentService.GetUserDocumentById(Documentid, GetToken(HttpContext)));
         }
 
-
+        [HttpGet("GetDocumentByUserID")]
+        public ActionResult GetUserDocument(int Userid,string key)
+        {
+            return Ok(_documentService.GetUserDocument(Userid, key, GetToken(HttpContext)));
+        }
     }
 }
