@@ -65,12 +65,8 @@ namespace BrightCare.Entity.Agency
         public int LocationID { get; set; }
 
         [Required]
-        public bool IsActive { get; set; }
         public DateTime CreatedDate { get; set; }
-        public bool? IsDeleted { get; set; }
-        [ForeignKey("Users2")]
-        public int? DeletedBy { get; set; }
-        public DateTime? DeletedDate { get; set; }
+      
         [NotMapped]
         public DateTime FromDate
         {
@@ -137,15 +133,7 @@ namespace BrightCare.Entity.Agency
                 }
             }
         }
-
        
-
-        [ForeignKey("Users")]
-        public int? CreatedBy { get; set; }
-        public DateTime? UpdatedDate { get; set; }
-
-        [ForeignKey("Users1")]
-        public int? UpdatedBy { get; set; }
         public bool IsVerified { get; set; }
 
         [NotMapped]
@@ -201,7 +189,6 @@ namespace BrightCare.Entity.Agency
         public virtual User Users { get; set; }
         public virtual User Users1 { get; set; }
         public virtual User Users2 { get; set; }
-        //public virtual User Users3 { get; set; }
 
     }
 }
