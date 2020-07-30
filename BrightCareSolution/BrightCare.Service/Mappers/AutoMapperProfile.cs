@@ -11,6 +11,8 @@ using BrightCare.Dtos.Agency.StaffLeave;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using BrightCare.Dtos.Agency.Document;
+using BrightCare.Dtos.Agency.Staff;
 
 namespace BrightCare.Service.Mappers
 {
@@ -31,6 +33,12 @@ namespace BrightCare.Service.Mappers
             CreateMap<StaffLeaves, StaffLeaveDTO>();
             CreateMap<StaffLeaves, StaffLeaveDTO>().ReverseMap();
 
+            CreateMap<UserDocument,UserDocumentDTO>();
+            CreateMap<UserDocument, UserDocumentResponseDTO>().ReverseMap();
+
+            CreateMap<StaffExperience,StaffExperienceDTO>();
+            CreateMap<StaffExperience, StaffExperienceDTO>().ReverseMap();
+
             CreateMap<MasterServices, MasterServicesDTO>().ReverseMap();
             CreateMap<MasterServiceType, MasterServiceTypeDTO>().ReverseMap();
 
@@ -41,6 +49,5 @@ namespace BrightCare.Service.Mappers
             CreateMap<LeaveReason, LeaveReasonDTO>().ReverseMap();
 
         }
-
     }
 }

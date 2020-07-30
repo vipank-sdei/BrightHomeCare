@@ -58,6 +58,10 @@ using BrightCare.Repository.Agency.LeaveReasons;
 using BrightCare.Service.Agency.LeaveTypes;
 using BrightCare.Service.Interface.Agency.LeaveReasons;
 using BrightCare.Service.Agency.LeaveReasons;
+using BrightCare.Repository.Interface.Agency.Documnets;
+using BrightCare.Repository.Agency.Documents;
+using BrightCare.Service.Interface.Agency.Documents;
+using BrightCare.Service.Agency.Documents;
 
 namespace BrightCare.Web.Api.Dependency
 {
@@ -96,6 +100,8 @@ namespace BrightCare.Web.Api.Dependency
             services.AddScoped<IStaffRepository, StaffRepository>();
             services.AddScoped<IPatientRepository,PatientRepository>();
             services.AddScoped<IStaffLeaveRepository, StaffLeaveRepository>();
+            services.AddScoped<IUserDocumentRepository, UserDocumentRepository>();
+            services.AddScoped<IStaffExperienceRepository, StaffExperienceRepository>();
             //MasterService
             services.AddScoped<IMasterServicesRepository, MasterServicesRepository>();
             //MasterServiceType
@@ -104,7 +110,7 @@ namespace BrightCare.Web.Api.Dependency
             services.AddScoped<IUserRoleRepository, UserRoleRepository>();
             //MasterDocumentType
             services.AddScoped<IMasterDocumentTypeRepository, MasterDocumentTypeRepository>();
-
+            
             services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
 
             services.AddScoped<ILeaveReasonReapository, LeaveReasonRepository>();
@@ -121,6 +127,9 @@ namespace BrightCare.Web.Api.Dependency
             services.AddTransient<IUserRoleService, UserRoleService>();
             services.AddTransient<IMasterDocumentTypeService, MasterDocumentTypeService>();
             services.AddTransient<IStaffLeaveService, StaffLeaveService>();
+            services.AddTransient<IUserDocumentService, UserDocumentService>();
+            services.AddTransient<IStaffExperienceService, StaffExperienceService>();
+
 
             services.AddTransient<ILeaveTypeService, LeaveTypeService>();
             services.AddTransient<ILeaveReasonService, LeaveReasonService>();

@@ -49,7 +49,7 @@ namespace BrightCare.Persistence
             }
         }
         public DbSet<ExceptionLog> ExceptionLog { get; set; }
-        public DbSet<Organization> Organization { get; set; }
+        public DbSet<Organization> MasterOrganization { get; set; }
         public DbSet<User> User { get; set; }
         public DbSet<Staffs> Staffs { get; set; }
         public DbSet<Patients> Patients { get; set; }
@@ -60,6 +60,8 @@ namespace BrightCare.Persistence
         public DbSet<StaffLeaves> StaffLeave { get; set; }
         public DbSet<LeaveType> LeaveType { get; set; }
         public DbSet<LeaveReason> LeaveReason { get; set; }
+        public DbSet<UserDocument> UserDocuments { get; set; }
+        public DbSet<StaffExperience> StaffExperiences { get; set; }
 
         public int ExecuteStoredProcedureNonQuery(string commandText, params object[] parameters)
         {

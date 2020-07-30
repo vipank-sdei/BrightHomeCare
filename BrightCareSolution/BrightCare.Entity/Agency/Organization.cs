@@ -111,8 +111,8 @@ namespace BrightCare.Entity.Agency
         public string ContactPersonPhoneNumber { get; set; }
 
 
-        [ForeignKey("MasterMaritalStatus")]
-        public int? ContactPersonMaritalStatus { get; set; }
+        //[ForeignKey("MasterMaritalStatus")]
+        //public int? ContactPersonMaritalStatus { get; set; }
 
         [NotMapped]
         public int UserID { get; set; }
@@ -155,10 +155,10 @@ namespace BrightCare.Entity.Agency
         [Column(TypeName = "varchar(15)")]
         public string PayrollEndWeekDay { get; set; }
 
-        public decimal? BookingCommision { get; set; }
-        public string StripeKey { get; set; }
-        public string PaymentMode { get; set; }
-        public string StripeSecretKey { get; set; }
+       // public decimal? BookingCommision { get; set; }
+       // public string StripeKey { get; set; }
+       // public string PaymentMode { get; set; }
+        //public string StripeSecretKey { get; set; }
 
     }
 }

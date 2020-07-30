@@ -418,7 +418,8 @@ namespace BrightCare.Common.Enums
         }
         public enum DocumentUserTypeEnum //only for document user type
         {
-            PATIENT
+            PATIENT,
+            STAFF
         }
 
         public static class ColorCode
