@@ -186,9 +186,6 @@ namespace BrightCare.Entity.Agency
 
         public virtual Staffs Staff { get; set; }
 
-        public virtual User Users { get; set; }
-        public virtual User Users1 { get; set; }
-        public virtual User Users2 { get; set; }
 
     }
 }
